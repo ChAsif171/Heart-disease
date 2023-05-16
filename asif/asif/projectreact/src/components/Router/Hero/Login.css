@@ -1,0 +1,89 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.signup-link {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.signup-link a {
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.forgot-password-link {
+  text-align: center;
+  margin-top: 0;
+}
+
+.forgot-password-link a {
+  color: #0077cc;
+}
+
+.login-button {
+  background-color: #0077cc;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #005fa3;
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 40px; /* Add margin to create distance from the form */
+  position: relative;
+  left:90px;
+}
+
+.login-image {
+  max-width: 500px; /* Adjust the size as per your requirements */
+  height: 300px;
+}
