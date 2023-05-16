@@ -20,7 +20,7 @@ function Login() {
             <button type="submit" className="login-button">Login</button>
           </div>
           <div className="login-links">
-            <p className="signup-link">Don't have an account? <a href="Signup">Sign up</a></p>
+            <p className="signup-link">Don't have an account? <a href="/FormComponent">Sign up</a></p>
             <p className="forgot-password-link"><a href="#">Forgot password?</a></p>
           </div>
         </form>

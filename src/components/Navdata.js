@@ -13,7 +13,7 @@ export const Navdata=[
     cname:'nav-link'
 },
 {
-    title:'Check it',
+    title:'Prediction',
     img:"fa-solid fa-address-book",
     url:'/FormComponent',
     cname:'nav-link'

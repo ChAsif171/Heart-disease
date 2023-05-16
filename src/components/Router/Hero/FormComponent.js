@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Navbar from '../../Navbar';
 import './Form.css';
+import Footer from '../Footer'
+
 const FormComponent = () => {
   const [age, setAge] = useState('');
   const [sex, setSex] = useState('');
@@ -66,7 +68,7 @@ const FormComponent = () => {
           </div>
           <div>
             <label htmlFor="c">C:</label>
-            <select id="c" value={c} onChange={(e) => setC(e.target.value)} style={{width:'200px'}}>
+            <select id="c" value={c} onChange={(e) => setC(e.target.value)} style={{width:'180px'}}>
               <option value="">Select</option>
               <option value="1">Option 1</option>
               <option value="2">Option 2</option>
@@ -107,7 +109,7 @@ const FormComponent = () => {
         <div style={{ display: 'flex', marginBottom: '10px' ,justifyContent:'space-evenly'}}>
           <div>
             <label htmlFor="restecg">Restecg:</label>
-            <select id="restecg" value={restecg} onChange={(e) => setRestecg(e.target.value)} style={{width:'200px'}}>
+            <select id="restecg" value={restecg} onChange={(e) => setRestecg(e.target.value)} style={{width:'180px'}}>
               <option value="">Select</option>
               <option value="0">Option 0</option>
               <option value="1">Option 1</option>
@@ -154,7 +156,7 @@ const FormComponent = () => {
           </div>
           <div>
             <label htmlFor="ca">CA:</label>
-            <select id="ca" value={ca} onChange={(e) => setCa(e.target.value)} style={{width:'200px'}}>
+            <select id="ca" value={ca} onChange={(e) => setCa(e.target.value)} style={{width:'180px'}}>
               <option value="">Select</option>
               <option value="0">Option 0</option>
               <option value="1">Option 1</option>
@@ -166,7 +168,7 @@ const FormComponent = () => {
         <div style={{ display: 'flex', marginBottom: '10px' ,justifyContent:'space-evenly'}} >
           <div>
             <label htmlFor="thal">Thal:</label>
-            <select id="thal" value={thal} onChange={(e) => setThal(e.target.value)} style={{width:'200px'}}>
+            <select id="thal" value={thal} onChange={(e) => setThal(e.target.value)} style={{width:'180px'}}>
               <option value="">Select</option>
               <option value="0">Option 0</option>
               <option value="1">Option 1</option>
@@ -177,9 +179,11 @@ const FormComponent = () => {
         <button type="submit" className="btn" onClick={() => alert("Data entered")}>
   Submit
 </button>
+<Footer/>
 
       </form>
     </div>
+    
   );
 };
 
