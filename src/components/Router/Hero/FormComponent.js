@@ -67,13 +67,13 @@ const FormComponent = () => {
             />
           </div>
           <div>
-            <label htmlFor="c">C:</label>
+            <label htmlFor="c">Chest pain :</label>
             <select id="c" value={c} onChange={(e) => setC(e.target.value)} style={{width:'180px'}}>
               <option value="">Select</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
-              <option value="4">Option 4</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
             </select>
           </div>
         </div>
@@ -88,7 +88,7 @@ const FormComponent = () => {
             />
           </div>
           <div>
-            <label htmlFor="chol">Chol:</label>
+            <label htmlFor="chol">Cholestrol:</label>
             <input   
               type="text"
               id="chol"
@@ -97,7 +97,7 @@ const FormComponent = () => {
             />
           </div>
           <div>
-            <label htmlFor="fbs">FBS:</label>
+            <label htmlFor="fbs">FB Sugar:</label>
             <input
               type="text"
               id="fbs"
@@ -111,13 +111,13 @@ const FormComponent = () => {
             <label htmlFor="restecg">Restecg:</label>
             <select id="restecg" value={restecg} onChange={(e) => setRestecg(e.target.value)} style={{width:'180px'}}>
               <option value="">Select</option>
-              <option value="0">Option 0</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
             </select>
           </div>
           <div>
-            <label htmlFor="thalach">Thalach:</label>
+            <label htmlFor="thalach">Heart rate :</label>
             <input
               type="text"
               id="thalach"
@@ -158,25 +158,25 @@ const FormComponent = () => {
             <label htmlFor="ca">CA:</label>
             <select id="ca" value={ca} onChange={(e) => setCa(e.target.value)} style={{width:'180px'}}>
               <option value="">Select</option>
-              <option value="0">Option 0</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
             </select>
           </div>
         </div>
         <div style={{ display: 'flex', marginBottom: '10px' ,justifyContent:'space-evenly'}} >
           <div>
-            <label htmlFor="thal">Thal:</label>
+            <label htmlFor="thal">Thalassemia:</label>
             <select id="thal" value={thal} onChange={(e) => setThal(e.target.value)} style={{width:'180px'}}>
               <option value="">Select</option>
-              <option value="0">Option 0</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
             </select>
           </div>
         </div>
-        <button type="submit" className="btn" onClick={() => alert("Data entered")}>
+        <button type="submit" className="btn" onClick={() => alert("Your Data Insert Successfully")}>
   Submit
 </button>
 <Footer/>

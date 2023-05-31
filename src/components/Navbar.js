@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className='NavbarItems'>
-        <h1 className='nav-logo'>HDPML</h1>
+        <h1 className='nav-logo'>HDP</h1>
 
         <div className='menu-icons' onClick={handle}> 
           <i className={isCrossIconShown ? "fas fa-bars":"fas fa-times"}></i>
