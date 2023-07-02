@@ -2,7 +2,7 @@ import { Field, Formik, Form, ErrorMessage } from 'formik';
 import React, { useState } from 'react';
 import * as Yup from 'yup';
 import './Signup.style.css';
-import Navbar from '../../Navbar';
+import Navbar from './Navbar';
 import Heros from './Heros';
 
 export default function Signup() {

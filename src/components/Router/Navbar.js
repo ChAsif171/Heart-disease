@@ -1,8 +1,7 @@
 import {useState} from 'react'
 import {Link} from 'react-router-dom'
 import "./Navbar.style.css"
-
-import {Navdata} from "./Navdata"
+import { Navdata } from './Navdata'
 export default function Navbar() {
   const [isCrossIconShown, setIsCrossIconShown] = useState(true);
   

@@ -1,9 +1,9 @@
 
 import './Formstyle.css'
 import React from 'react'
-import Navbar from '../Navbar'
+import Navbar from './Navbar'
 import Footer from './Footer'
-import Heros from './Hero/Heros'
+import Heros from './Heros'
 import Form from './Form'
 import './Hero.style.css'
 export default function Contact() {

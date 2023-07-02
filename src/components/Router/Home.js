@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../Navbar'
-import Heros from './Hero/Heros'
+import Navbar from './Navbar'
+import Heros from './Heros'
 import './Hero.style.css'
 import Destination from './Destination'
-import Recentt from './Hero/Recentt'
+import Recentt from './Recentt'
 import Footer from './Footer'
 export default function Home() {
   return (
