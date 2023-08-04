@@ -12,12 +12,12 @@ export const Navdata=[
     url:'/Login',
     cname:'nav-link'
 },
-{
-    title:'Prediction',
-    img:"fa-solid fa-address-book",
-    url:'/FormComponent',
-    cname:'nav-link'
-},
+// {
+//     title:'Prediction',
+//     img:"fa-solid fa-address-book",
+//     url:'/FormComponent',
+//     cname:'nav-link'
+// },
 {
     title:'About',
     img:"fa-solid fa-circle-info",
@@ -34,11 +34,7 @@ export const Navdata=[
     url:'/contact',
     cname:'nav-link'
 },
-{
-    title:"signup",
-    url:"/singup",
-    cname:"nav-mob"
-}
+
 
 ]
 

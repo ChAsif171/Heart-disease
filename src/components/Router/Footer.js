@@ -28,7 +28,7 @@ export default function Footer() {
 </div>
 <div>
     <h4>Community</h4>
-    <a href="/">Cithub</a>
+    <a href="/">github</a>
     <a href="/">Issues</a>
     <a href="/">Projects</a>
     <a href="/">Twitter</a>

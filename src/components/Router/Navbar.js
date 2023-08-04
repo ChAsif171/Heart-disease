@@ -31,7 +31,7 @@ export default function Navbar() {
         
         })}
         
-           <button>Signup</button>
+           {/* <button>Signup</button> */}
         </ul>
       </nav> 
     </div>
